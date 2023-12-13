@@ -1,0 +1,174 @@
+
+body{
+	background-image: url(https://img.freepik.com/free-photo/autumn-season-leafs-plant-scene-generative-ai_188544-7971.jpg?w=1060&t=st=1702449984~exp=1702450584~hmac=9338e3dec0155eec12c307137630d85dbcbf0e9b004f6a3c62f6782cc699f07c);
+	height: 1000px;                                           /* висота нашого вікна браузера*/
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+*{
+	margin: 0px; padding: 0px; font-family: 'Montserrat', sans-serif;   /*  * - для всіх елементів ми обрали шрифт*/
+}
+.main{                                    /*розміщення нашого листка*/
+	background-color: white;
+	height: auto;
+	width: 665px;
+	position: absolute;                   /*розміщення відносно вікна браузера*/
+	transform: translate(-50%, -50%);      /*зміщує елемент на половину його власної ширини вліво і на половину висоти вгору*/
+	left: 50%;
+	top: 60%;
+}
+.left{                                                                        /*Лівий блок*/
+	background-color: #3bc1fb;             /* задній фон лівого блоку*/
+	width: 215px;
+	height: 900px;
+	float: left;                             /*задає ліву позицію нашому блоку*/     
+}
+.centre{                                                                        /*центральний блок*/
+	width: 450px;                            /* ширина центрального блоку*/
+	float: right;                            /*вирівнюється вправо і решта контенту обтікає його праворуч*/
+}
+
+.profile-img img{
+	width: 100%;                             /*ширина фото!!!*/
+	border-radius: 50%;                      /*округлення фото*/
+}
+.moreInfo{                                   /*лінії на яких працює js */
+	position: relative;                        /*задає позицію, щоб дочірні елементи розташовувались по ньому */
+}
+.heading{
+	background-color: #4d4d4d;             /*лінії на яких працює текст з js*/    
+	padding: 10px;
+	color: #fbb03b;
+	margin-right: -10px;                     /*ці лінії займають всю ширину лівого блоку*/ 
+}
+
+.p1{
+	padding: 9px 10px;                        /* відстань між елементами зверху та справа */
+	font-size: 11px;                          /*розмір шрифту*/
+}
+.skill-container{                             /* клас для результатів вмінь(чорна)*/
+	width: 90%;
+	background-color: #4d4d4d;
+	margin: 0px 10px;
+}
+.skill{                                       /*клас для результатів вмінь(біла)*/
+	text-align: right;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: white;
+}
+.html{                                       /*класи для прогресу у вивченні*/
+	width: 20%;
+	background-color: white;
+}
+.css{
+	width: 10%;
+	background-color: white;
+}
+.js{
+	width: 5%;
+	background-color: white;
+}
+.jquery{
+	width: 0%;
+	background-color: white;
+}
+.web {
+	width: 20%;
+	background-color: white;
+}
+.gra{
+	width: 20%;
+	background-color: white;
+}
+
+.name-div{                                   /*клас для нашого імені*/
+	padding: 86px 0px 60px 55px;         
+	text-align: center;
+	letter-spacing: 3px;
+}
+.name-div h1{                                /*відступ між іменем та веб дизайнер*/
+	margin-bottom: 10px;
+}
+.box-2{
+	padding: 0px 50px;
+	margin-top: 0px;                         /*відступи зверху About me*/
+}
+.box-3{
+	padding: 0px 50px;                        /*внутрішній відступ справа*/
+	margin-top: 20px;                         /*відступи зверху Education*/
+}
+.p2{
+	font-size: 10px;                            /*стилі для текстів */
+	font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 18px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+h2{                                 /*клас для заголоовків educ та about me */
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.icons3{                            /*клас для заголовків навчання в школі та навчання в інституті*/
+	vertical-align: bottom;
+	font-size: 21px!important;
+	color: #4d4d4d;               /*колір років - чорний*/
+}
+.p3{                                /*клас для заголовків навчання в школі та навчання в інституті*/
+	font-size: 13px;
+	word-spacing: 1px;
+	letter-spacing: 0px;
+	margin-top: 10px;
+}
+.p3 span{
+	color: #ff9b00; padding-left: 20px;    /*колір навчань */
+}
+
+.phone{
+	width: 215px;
+    background-color: white;             /*клас для кнопки phone*/
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background-color: #3bc1fb;
+} 
+.Email{                                      /*клас для кнопки email*/
+	width: 215px;
+    background-color: white;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background-color: #3bc1fb;
+} 
+
+.icon-buttonInst {                  /*клас для іконки*/
+    width: 35px; 
+    height: 35px; 
+    background: url('https://png.pngtree.com/png-clipart/20230401/original/pngtree-three-dimensional-instagram-icon-png-image_9015419.png') no-repeat center center; 
+    background-size: cover; /* Розтягуємо зображення на всю площу кнопки */
+    border: none;
+    cursor: pointer;
+    margin: 15px; 
+}
+.icon-buttonGit {
+    width: 35px; 
+    height: 35px; 
+    background: url('https://cdn-icons-png.flaticon.com/512/25/25231.png') no-repeat center center; 
+    background-size: cover; 
+    border: none;
+    cursor: pointer;   /*при наведенні курсор = знак вказівника*/
+    margin: 10px; 
+}
+.icon-buttonYoutube {
+    width: 35px; 
+    height: 35px; 
+    background: url('file:///C:/Users/Admin/Downloads/pngimg.com%20-%20youtube_PNG102349.png') no-repeat center center; 
+    background-size: cover; 
+    border: none;
+    cursor: pointer;
+    margin: 10px; 
+}
+
+
